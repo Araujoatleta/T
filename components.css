@@ -35,6 +35,11 @@
     color:var(--gray-orange-01);
   }
   
+  body{
+    position: absolute;
+    width: auto;
+    height: auto;
+  }
   
   #menuToggle input {
     display: block;
@@ -242,6 +247,7 @@
     gap: 0px;
     opacity: 0px;
     right: 278px;
+
   }
   section .imagem-secundaria{ 
     width: 308px;
@@ -253,4 +259,105 @@
     margin-top: -102px;
     left: 1182px;
     gap: 0px;
+    margin-bottom: 10.5rem;
   }
+  h6#text4{
+    color: var(--gray-light-05);
+    font-family: Mohave;
+    font-size: 2.4rem;
+    margin-left: 10.7rem;
+    text-transform: uppercase;
+    position: relative;
+}
+.pic-1{
+    width: 310px;
+    height: 260px;
+    flex-shrink: 0;
+    margin-left: 10rem;
+    position: absolute;
+    margin-left: 14.1rem;
+
+  }
+.pic-2{
+  width: 310px;
+  height: 260px;
+  flex-shrink: 0;
+  margin-left: 48rem;
+  margin-bottom: 7.7rem;
+  position: absolute;  
+
+
+}
+.pic-3{
+  width: 310px;
+  height: 260px;
+  flex-shrink: 0;
+  margin-left: 83rem;
+  margin-bottom: 7.7rem;
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto;
+  columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.pic-4{
+  width: 310px;
+  height: 260px;
+  flex-shrink: 0;
+  margin-left: 117.9rem;
+  margin-bottom: 7.7rem;
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto;
+  columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.seta{
+  width: 310px;
+  height: 260px;
+  flex-shrink: 0;
+  margin-left: 143.9rem;
+  margin-top: 11rem;
+  position: absolute;
+}
+#barbearia-fundo-1{
+  width: 1490px;
+  height: 792px;
+  flex-shrink: 0;
+  margin-top: 30rem;
+  position: absolute;
+  margin-left: 7rem;
+}
+#barbearia-text-1{
+  color:var(--gray-light-05);
+  font-family: Mohave;
+  font-size: 56px;
+  width: 780px;
+  height: 78px;
+  top: 239px;
+  left: 40.0rem;
+  text-align: left;
+  margin-top: 120rem;
+  position: absolute;
+  flex-shrink: 4;
+}
+.paragrafo-principal{
+  color:var(--gray-light-05);
+  font-family: Mohave;
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 21.78px;
+  text-align: center;
+  top: 320px;
+  left: 33rem;
+  margin-top: 120rem;
+  position: absolute;
+  flex-shrink: 4;
+  width: 905px;
+  height: 44px;
+  gap: 0px;
+  opacity: 0px;
+  
+
+}
